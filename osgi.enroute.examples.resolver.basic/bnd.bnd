@@ -1,0 +1,10 @@
+-buildpath: \
+	biz.aQute.bndlib;packages=*,\
+	biz.aQute.repository;packages=*,\
+	biz.aQute.resolve;packages=*,\
+	osgi.enroute.base.api,\
+	com.mxgraph
+	
+-testpath: \
+    osgi.enroute.junit.wrapper, \
+    osgi.enroute.hamcrest.wrapper
